@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.head-sec {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    margin: 1rem 0 0 20rem;
+
+    width: 80vw;
+
+}
+
+.head-sec h3 {
+    font-weight: 500;
+    padding: 3rem 0 3rem 1rem;
+    font-size: 1.5rem;
+
+}
+
+.arrow-icon {
+
+    position: relative;
+    top: 3rem;
+    height: 20px;
+
+
+}
+
+.mainsection {
+
+    margin: 3rem;
+    padding: 1rem 0 1rem 18rem;
+}
+
+.mainsection h1 {
+    font-size: 2.3rem;
+
+}
+
+.total {
+    margin: 1rem 0 3rem 0;
+    font-size: 1.4rem;
+}
+
+.total-item {
+    font-weight: bold;
+}
+
+.cart-item {
+    background-color: whitesmoke;
+    width: 80vw;
+    display: grid;
+    place-items: center;
+}
+
+.cart-item-container{
+    width: 90%;
+    height: 56rem;
+   
+margin-top: 1rem;
+}
+.items-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 100%;
+    height: 11rem;
+    place-items: center;
+    
+
+}
+
+.product-img {
+    margin: 1rem 0 1rem 0;
+}
+
+.product-img img {
+    height: 9rem;
+    width:16rem;
+    border-radius: .6rem;
+    filter: drop-shadow(0.3rem 0.5rem 0.6rem  grey);
+  
+
+}
+
+.title {
+    margin: 1rem 0;
+    padding: 1.7rem 0 0 0;
+}
+
+.add-minus-quantity {
+    margin: 1rem 0;
+    padding: 1.9rem 0 0 0;
+    
+}
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.title h2 {
+    font-size: 1.8rem;
+}
+
+input[type=text] {
+    width: 40px;
+    height: 20px;
+    margin: 0 1rem;
+    padding: 1rem auto;
+    border: 1px solid black;
+
+}
+
+::placeholder {
+    padding: 1rem;
+    text-align: center;
+    color:black;
+}
+
+.fa-minus {
+
+    font-size: 1.6rem;
+    position: relative;
+    top:.1rem;
+
+}
+
+.fa-plus {
+
+    font-size: 1.6rem;
+    position: relative;
+    top:.1rem;
+}
+
+.price {
+
+    margin: 3rem 0 0 0;
+    font-size: 1.5rem;
+
+}
+
+.remove-item {
+    margin: 3rem 0 0 0;
+
+}
+
+.fa-trash {
+
+    font-size: 1.5rem;
+}
+
+.fa-trash:hover{
+    color: red;
+}
+
+hr {
+    display: flex;
+   
+    width: 90%;
+    margin:2rem auto;
+    overflow-y: scroll;
+}
+
+.total-cart{
+
+   display: flex;
+   justify-content: end;
+   text-align: end;
+   
+   margin-top: 3.4rem;
+   width: 80vw;
+ flex-direction:column;
+
+ 
+}
+.total-cart h1{
+    padding: 0 17rem 0 0;
+}
+
+.sub-cart{
+    position: relative;
+   margin: .8rem;
+   right: 16rem;
+}
+
+
+.btn_clear{
+    padding: 4px 19px;
+    border-radius: .4rem;
+    background-color: red;
+    color: white;
+    border: none;
+}
